@@ -18,7 +18,7 @@ PS：不知道为啥制作出来的rpm包安装时候需要一些perl相关的�
 
 7、docker image使用方法：
 
-docker  pull xinghen/mysql-5.6.26：centos6
+docker  pull xinghen/mysql-5.6.26:centos6
 
 基础镜像下载： docker  pull  xinghen/centos:6
 
