@@ -11,7 +11,7 @@ MAINTAINER yichao.chen  <cycxhen@hotmail.com>
 RUN yum install -y  libxml2-devel ncurses-devel bison libmcrypt libmcrypt-devel  libtool-ltdl-devel && \
     yum clean all
 
-RUN rpm -ivh http://58.68.138.30:82/scripts/mysql-5.6.26-1.el6.x86_64.rpm --nodeps
+RUN rpm -ivh http://58.68.xx.xx/scripts/mysql-5.6.26-1.el6.x86_64.rpm --nodeps
 
 EXPOSE 3306
 
